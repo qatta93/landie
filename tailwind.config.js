@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+// @type {import('tailwindcss').Config} 
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
@@ -26,7 +26,10 @@ module.exports = {
       'blue-700': '#222F65',
       'blue-800': '#111B47',
       'blue-900': '#091133',
+      'white': '#FFFFFF'
     },
   },
-  plugins: [],
+  plugins: [
+    require("tailwindcss-inner-border"),
+  ],
 }

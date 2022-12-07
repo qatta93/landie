@@ -1,0 +1,11 @@
+.btn-md {
+  @apply h-[36px] w-[189px] py-[5px] text-base font-medium;
+}
+
+.btn-sm {
+  @apply h-[26px] w-[160px] py-[4px] text-xs font-medium;
+}
+
+.btn-xs {
+  @apply h-[26px] w-[109px] py-[4px] text-xs font-medium;
+}
