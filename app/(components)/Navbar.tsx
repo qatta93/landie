@@ -9,7 +9,7 @@ const Navbar = () => {
         <Link href='/about'>About</Link>
         <Link href='/contact'>Contact</Link>
       </section>
-      <h1 className="text-[26px] text-blue-600 my-auto font-black">Landie</h1>
+      <h3 className=" text-blue-600 my-auto">Landie</h3>
       <Button
         className="my-auto"
         variant={'primary'}
