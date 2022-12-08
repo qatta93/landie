@@ -26,9 +26,11 @@ module.exports = {
       'blue-700': '#222F65',
       'blue-800': '#111B47',
       'blue-900': '#091133',
-      'white': '#FFFFFF'
+      'white': '#FFFFFF',
+      'black': '#000000'
     },
   },
+
   plugins: [
     require("tailwindcss-inner-border"),
   ],

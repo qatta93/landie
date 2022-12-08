@@ -1,5 +1,12 @@
+import Button from "./(components)/Button";
+import Image from 'next/image'
+
 const Page = () => {
-  return <div className="text-3xl font-bold underline">Hello</div>
+  return (
+    <main>
+
+    </main>
+  )
 }
 
 export default Page;

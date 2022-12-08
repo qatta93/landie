@@ -7,6 +7,12 @@
   html {
     @apply text-grey-600;
   }
+  h1 {
+    @apply text-[50px] font-medium leading-[66px];
+  }
+  h2 {
+    @apply text-[36px] font-medium leading-[48px];
+  }
   h3 {
     @apply text-[26px] font-black leading-[38px];
   }
