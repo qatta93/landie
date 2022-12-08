@@ -24,7 +24,7 @@ const Footer = () => {
       <hr className=" h-px bg-grey-200 mt-[47px] mb-[20px]"/>
       <section className="flex justify-between">
         <nav className="flex text-sm text-blue-300 leading-6 cursor-pointer">
-          <Link href='/home' className="mr-[60px]">Home</Link>
+          <Link href='/' className="mr-[60px]">Home</Link>
           <Link href='/about' className="mr-[60px]">About</Link>
           <Link href='/contact'>Contact</Link>
         </nav>
