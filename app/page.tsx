@@ -1,11 +1,11 @@
-import Button from "./(components)/Button";
-import Image from 'next/image'
 import PriceSection from "./(components)/(homePage)/PriceSection";
 import FeaturesSection from "./(components)/(homePage)/FeaturesSection";
+import IntroSection from "./(components)/(homePage)/IntroSection";
 
 const Page = () => {
   return (
     <main>
+      <IntroSection/>
       <FeaturesSection/>
       <PriceSection/>
     </main>

@@ -33,7 +33,8 @@ module.exports = {
       backgroundImage: {
         'pricing_bcg': "url('/images/pricing_bcg.png')",
       }
-    }
+    },
+  
   },
 
   plugins: [
