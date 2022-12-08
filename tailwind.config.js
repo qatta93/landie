@@ -29,6 +29,11 @@ module.exports = {
       'white': '#FFFFFF',
       'black': '#000000'
     },
+    extend: {
+      backgroundImage: {
+        'pricing_bcg': "url('/images/pricing_bcg.png')",
+      }
+    }
   },
 
   plugins: [
