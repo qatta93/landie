@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Button from '../Button';
+import Link from "next/link";
 
 const IntroSection = () => {
   return (
@@ -10,20 +11,24 @@ const IntroSection = () => {
         <p className="text-blue-500 leading-[30px] text-lg">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p>
         <p className="text-blue-500 leading-[30px] text-lg pt-[16px] mb-[69px]">mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
         <div>
-          <Button
-            className="mr-[30px]"
-            variant={'primary'}
-            size={'md'}
-          >
-            Purchase UI Kit
-          </Button>
-          <Button
-            variant={'secondary'}
-            size={'md'}
-            className='!pt-[7px] !pb-[3px]'
-          >
-            Learn More
-          </Button>
+          <Link href='#'>
+            <Button
+              className="mr-[30px]"
+              variant={'primary'}
+              size={'md'}
+            >
+              Purchase UI Kit
+            </Button>
+          </Link>
+          <Link href='#'>
+            <Button
+              variant={'secondary'}
+              size={'md'}
+              className='!pt-[7px] !pb-[3px]'
+            >
+              Learn More
+            </Button>
+          </Link>
         </div>
       </article>
       <Image src='/images/main.png' height={1165} width={1161} alt='main' className='absolute right-0'/>

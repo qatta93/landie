@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../Button';
+import Link from "next/link";
 
 const PriceSection = () => {
   return (
@@ -10,13 +11,15 @@ const PriceSection = () => {
         <h1 className="text-blue-700 tracking-[1px]">$40</h1>
         <p className="text-blue-600 leading-[26px] pb-[60px]">UI Design Kit</p>
         <p className="leading-[24px] text-sm pb-[9px]">See, One price. Simple.</p>
-        <Button
-          variant={'primary'}
-          size={'md'}
-          className={'!h-[32px] !text-sm leading-[24px]'}
-        >
-          Purchase Now
-        </Button>
+        <Link href='#'>
+          <Button
+            variant={'primary'}
+            size={'md'}
+            className={'!h-[32px] !text-sm leading-[24px]'}
+          >
+            Purchase Now
+          </Button>
+        </Link>
       </article>
     </section>
   )
