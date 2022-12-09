@@ -4,7 +4,7 @@ import Button from '../Button';
 
 const IntroSection = () => {
   return (
-    <section className='relative h-[1161px] pl-[137px]'>
+    <section className='relative h-[1161px] pl-[137px] mb-[10px]'>
       <article className="absolute top-1/2 transform -translate-y-1/2 w-[540px] z-10">
         <h1 className="text-grey-700 font-outline-1 mb-[20px] tracking-[1px]">Introduce Your Product Quickly & Effectively</h1>
         <p className="text-blue-500 leading-[30px] text-lg">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p>
@@ -20,6 +20,7 @@ const IntroSection = () => {
           <Button
             variant={'secondary'}
             size={'md'}
+            className='!pt-[7px] !pb-[3px]'
           >
             Learn More
           </Button>
