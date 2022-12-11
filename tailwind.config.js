@@ -34,7 +34,14 @@ module.exports = {
         'pricing_bcg': "url('/images/pricing_bcg.png')",
       }
     },
-  
+    screens: {
+      'xs': '400px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1200px',
+      '2xl': '1400px',
+    }
   },
 
   plugins: [
