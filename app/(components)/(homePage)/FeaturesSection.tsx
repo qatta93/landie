@@ -16,7 +16,7 @@ const FeaturesSection = () => {
               <p className='text-xs leading-[18px] pt-[6px]'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
             </div>
             <div>
-            <Image src='/images/drawing.png' height={36} width={36} alt='drawing'/>
+              <Image src='/images/drawing.png' height={36} width={36} alt='drawing'/>
               <p className='text-grey-700  font-medium leading-[26px] pt-[14px]'>Title Goes Here</p>
               <p className='text-xs leading-[18px] pt-[6px]'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
             </div>

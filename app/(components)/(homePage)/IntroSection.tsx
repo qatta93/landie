@@ -24,7 +24,6 @@ const IntroSection = () => {
             <Button
               variant={'secondary'}
               size={'md'}
-              className='!pt-[7px] !pb-[3px]'
             >
               Learn More
             </Button>
